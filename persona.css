@@ -1,0 +1,148 @@
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+div.perso{
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: 3s;
+    overflow: hidden;
+    margin: 40px;
+    margin-right: 50px;
+}
+
+div.team{
+    width: 10px;
+    height: 250px;
+    overflow: hidden;
+    transform: translateY(200px);
+    opacity: 0;
+    animation: efeito 3s ease forwards;
+}
+.perso a{
+    width: 350px;
+    height: 400px;
+    border-radius: 50px;
+
+}
+div.perso img{
+    height: 100%;
+    width: 250px;
+    border-radius: 20px;
+}
+div.perso a{
+    text-decoration: none;
+    color: #FF6000;
+}
+
+div.cm{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+a.bu{
+  height: 50px;
+  width: 75px;
+  border-radius: 20px;
+  background-color: #0F4C75;
+  margin-top: 20px;
+  display: block;
+  border-radius: 5px solid black;
+  transition: 0.5s ease;
+  text-decoration: none;
+  color: #BBE1FA;
+  text-align: center;
+  padding-top: 25px ;
+}
+a.bu:hover{
+  height: 55px;
+  width: 105px;
+}
+    iframe{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    div.te{
+      width: 300px;
+      height: auto;
+      margin-top: 50px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      transition: 3s;
+      overflow: hidden;
+      margin: 40px;
+      margin-right: 50px;
+      border-radius: 20px;
+    }
+    h1{
+      background-color: #0F4C75;
+      border-radius: 20px;
+      border: #BBE1FA solid 5px;
+    }
+    div.te img{
+      width: 275px;
+      height: 300px;
+      border-radius: 20px;
+    }
+@keyframes efeito{
+    to {
+        transform: translateY(0); /* volta a caixa para a posição 0 */
+        opacity: 1;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+
+    header,
+    nav,
+    main {
+      width: 100%;
+  
+    }
+  
+    header {
+      flex-direction: row;
+      height: 200px;
+      display: flex;
+      flex: 1;
+    }
+  
+    header div h1 {
+      font-size: 30px;
+    }
+
+    main {
+      flex-direction: column;
+      width: 100%;
+    }
+    div.perso h1{
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    div.cm{
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    div.perso{
+      width: 300px;
+      height: auto;
+    }
+    div.perso img{
+        height: 250px;
+        width: 250px;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,6 @@
+shadow in sonic 1
+<iframe src="https://www.retrogames.cc/embed/42344-shadow-the-hedgehog-in-sonic-1.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
+return of shadow
+<iframe src="https://www.retrogames.cc/embed/42801-shadow-in-sonic-the-hedgehog-2.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
+shadow in sonic 3
+<iframe src="https://www.retrogames.cc/embed/42806-sonic-3-episode-shadow.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
