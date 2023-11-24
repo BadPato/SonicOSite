@@ -1,0 +1,22 @@
+div.perso{
+    height: auto;
+    width: 300px;
+}
+div.perso img{
+    height: 250px;
+    width: 250px;
+}
+div.aneis img{
+    width: 225px;
+    height: 175px;
+}
+div.aneis{
+    height: auto;
+    width: 300px;
+}
+div#exca{
+    height: auto;
+}
+div#exca img{
+    height: 400px;
+}

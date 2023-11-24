@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>sonic</title>
+    <link rel="stylesheet" href="sanic.css">
+
+</head>
+
+<body>
+    <header>
+        <button onclick="abrirmenu()" id="menuabrir"> <i style="font-size:24px" class="fa">☰ </i> </button>
+        <div class="imagem" id="logo">
+            <img src="site_logo.webp" alt="Logo">
+        </div>
+        
+        <div class="imagem" id="so">
+            <img src="images-removebg-preview.png" alt="Sonic Classico">
+        </div>
+
+        
+    </header>
+    <main>
+        <div id="caixa">
+            <button onclick="fecharmenu()" id="menufechar"><i style="font-size:24px" class="fa"> ⮿ </i></button>
+            <a href="mais.html">Personagens</a>
+            <a href="historia.html">Historia</a>
+            <a href="artefatos.html">Aterfatos</a>
+            <a href="JOGUE.html">Jogue Online</a>
+            <a href="ENGDarkindex.html">Tema Escuro</a>
+            <a href="ENGindex.html">Trocar Idioma</a>
+            <img id="sodan" src="sonic-dance.gif" alt="SONIC DANÇANDO">
+        </div>
+        <div id="oque">
+            <h1>Brief Introduction About</h1>
+            <h1>Sega</h1>
+           <p>Sega Corporation is a Japanese developer and publisher of electronic games based in Tokyo with international branches based in Irvine in the United States and London in the United Kingdom. It was founded in 1960 by American Martin Bromley, originally as two separate companies called Nihon Goraku Bussan and Nihon Kikai Seizō, which intended to take over the business of the former Service Games of Japan, a company specializing in base slot machines. military. The two companies ended up merging not long after and purchased Rosen Enterprises in 1965, then operating under the name Sega Enterprises.</p>
+            <h1>Sonic The Hedgehog</h1>
+            <p>Sonic the Hedgehog or Sonic the Hedgehog (translated into Portuguese) is the main protagonist of the Sonic the Hedgehog series of electronic games released by Sega, as well as comic books, cartoons, films and OVAs.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div id="segalogo">
+            <img src="segalogo.webp" alt="sega logo">
+        </div>
+        <div>
+
+        </div>
+    </footer>
+    <script src="jas.js"></script>
+</body>
+</html>
